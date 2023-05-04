@@ -7,17 +7,17 @@ Home Page - Where user can see greeting to site and navigation Account Registrat
 Installation Dependencies: Node Git GitHub
 <!-- backend -->
 Server installs-
- npx express-generator
+npx express-generator --view=ejs .
   npm install mongodb 
   npm install cors 
   npm install nodemon 
   npm install dotenv 
-  npm install bcryptJS 
-  npm install JsonWebToken 
+  npm install bcryptjs 
+  npm install jsonwebtoken 
   npm install uuidv4
 <!-- frontend -->
 client installs-
- npx create-react-app
+ npx create-react-app .
   npm install Bootstrap <!-- didnt work used the following-->
   npm install --save react-bootstrap-validation
 
@@ -28,9 +28,9 @@ client installs-
 
 Usage: -Pic of Home Page 
 -Pic of Registration Page
- -Pic of Login Pag
- e -Pic of item catalogue
-  -Pic of shopping cart
+-Pic of Login Page
+-Pic of item catalogue
+-Pic of shopping cart
 
 Contributing: No
 
